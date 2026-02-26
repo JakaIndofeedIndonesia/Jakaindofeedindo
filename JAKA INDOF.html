@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT JAKA INDOFEED INDONESIA | Solusi Pangan Berkualitas</title>
+    <!-- Fonts: Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Montserrat', sans-serif; scroll-behavior: smooth; }
+        .text-primary { color: #2D5A27; }
+        .bg-primary { background-color: #2D5A27; }
+        .border-primary { border-color: #2D5A27; }
+        .hover-primary:hover { background-color: #244a1f; }
+    </style>
+</head>
+<body class="bg-white text-gray-800 overflow-x-hidden">
+
+    <!-- NAVBAR -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-primary flex items-center gap-2">
+                <i data-lucide="leaf"></i> JAKA INDOFEED
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#home" class="hover:text-primary transition">Beranda</a>
+                <a href="#tentang" class="hover:text-primary transition">Tentang Kami</a>
+                <a href="#produk" class="hover:text-primary transition">Produk</a>
+                <a href="#kualitas" class="hover:text-primary transition">Kualitas</a>
+                <a href="#kontak" class="hover:text-primary transition">Kontak</a>
+            </div>
+            <button class="md:hidden text-primary">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <section id="home" class="relative min-h-screen flex items-center pt-20">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-10"></div>
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="max-w-3xl" data-aos="fade-up">
+                <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+                    Solusi Pangan <span class="text-primary">Berkualitas</span> untuk Indonesia
+                </h1>
+                <p class="text-lg text-gray-600 mb-10 leading-relaxed">
+                    Berkomitmen pada standar kualitas tertinggi, keamanan pangan nasional, dan distribusi yang merata untuk membangun masa depan Indonesia yang lebih sehat.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#tentang" class="bg-primary text-white px-8 py-4 rounded-full font-semibold hover-primary transition shadow-lg">Tentang Kami</a>
+                    <a href="#kontak" class="border-2 border-primary text-primary px-8 py-4 rounded-full font-semibold hover:bg-green-50 transition">Hubungi Kami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HIGHLIGHT 4 KEUNGGULAN -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="p-8 bg-white rounded-2xl shadow-sm hover:shadow-md transition text-center border-b-4 border-primary" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 bg-green-100 text-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="shield-check"></i>
+                    </div>
+                    <h3 class="font-bold mb-2">Kualitas Terjamin</h3>
+                    <p class="text-sm text-gray-500">Bahan baku pilihan dengan seleksi ketat.</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl shadow-sm hover:shadow-md transition text-center border-b-4 border-primary" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 bg-green-100 text-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="check-circle"></i>
+                    </div>
+                    <h3 class="font-bold mb-2">Standar Keamanan</h3>
+                    <p class="text-sm text-gray-500">Sertifikasi internasional dan pengawasan BPOM.</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl shadow-sm hover:shadow-md transition text-center border-b-4 border-primary" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-12 h-12 bg-green-100 text-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="truck"></i>
+                    </div>
+                    <h3 class="font-bold mb-2">Distribusi Luas</h3>
+                    <p class="text-sm text-gray-500">Jaringan logistik mencakup seluruh Nusantara.</p>
+                </div>
+                <div class="p-8 bg-white rounded-2xl shadow-sm hover:shadow-md transition text-center border-b-4 border-primary" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-12 h-12 bg-green-100 text-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="users"></i>
+                    </div>
+                    <h3 class="font-bold mb-2">Tim Profesional</h3>
+                    <p class="text-sm text-gray-500">Dikelola oleh ahli industri pangan berpengalaman.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. TENTANG KAMI -->
+    <section id="tentang" class="py-24">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1560224806-2c96459015b6?auto=format&fit=crop&q=80" alt="Operasional" class="rounded-3xl shadow-2xl">
+                </div>
+                <div data-aos="fade-left">
+                    <h2 class="text-4xl font-bold mb-6 italic text-primary">Sejarah & Profil</h2>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        PT JAKA INDOFEED INDONESIA berdiri dengan misi memperkuat ketahanan pangan Indonesia. Kami percaya bahwa setiap masyarakat berhak mendapatkan akses pangan yang bersih, aman, dan bergizi.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex gap-4">
+                            <div class="text-primary font-bold">VISI:</div>
+                            <p class="text-gray-600 italic">Menjadi pemimpin pasar industri pangan yang berkelanjutan dan inovatif di Asia Tenggara.</p>
+                        </div>
+                        <div class="flex gap-4">
+                            <div class="text-primary font-bold">MISI:</div>
+                            <ul class="text-gray-600 list-disc ml-4">
+                                <li>Menjamin standar keamanan pangan tertinggi.</li>
+                                <li>Mendukung petani dan pemasok lokal.</li>
+                                <li>Menerapkan teknologi produksi ramah lingkungan.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. PRODUK & LAYANAN -->
+    <section id="produk" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-16" data-aos="fade-up">Produk & Layanan Kami</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Produk 1 -->
+                <div class="bg-white p-4 rounded-3xl shadow-lg group hover:-translate-y-2 transition duration-300" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="bg-white h-64 rounded-2xl mb-6 overflow-hidden flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&q=80" alt="Grain" class="object-cover h-full w-full group-hover:scale-110 transition">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Bahan Pangan Pokok</h3>
+                    <p class="text-gray-500 text-sm">Beras, jagung, dan gandum dengan kualitas giling premium.</p>
+                </div>
+                <!-- Produk 2 -->
+                <div class="bg-white p-4 rounded-3xl shadow-lg group hover:-translate-y-2 transition duration-300" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="bg-white h-64 rounded-2xl mb-6 overflow-hidden flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80" alt="Processed Food" class="object-cover h-full w-full group-hover:scale-110 transition">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Produk Olahan</h3>
+                    <p class="text-gray-500 text-sm">Inovasi pangan siap olah yang sehat dan praktis.</p>
+                </div>
+                <!-- Produk 3 -->
+                <div class="bg-white p-4 rounded-3xl shadow-lg group hover:-translate-y-2 transition duration-300" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="bg-white h-64 rounded-2xl mb-6 overflow-hidden flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1628449278734-ec407f27
